@@ -1,0 +1,66 @@
+:root{
+            --primary-color:#3A497B;
+            --bg-color:#272B30;
+}
+body {
+            font-family: "Comic Neue", "Comic Sans MS", cursive, sans-serif;
+            height: 200vh;
+            background-image: url(./img/wraper.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-color: var(--bg-color);
+}
+/* navbar */
+.custom-navbar {
+            width: 70%;
+            border-radius: 15px;
+            margin: 50px auto; 
+            top: 60px; 
+            background-color: var(--primary-color);
+            transition: margin 0.5s ease-in-out, top 0.5s ease-in-out;
+}
+
+        .navbar-fixed {
+            position: fixed;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            margin: 0;
+            z-index: 1000; 
+            
+        }
+.navbar-brand img{
+            width: 20%;
+}
+.card-img-top {
+            height: 200px;
+            object-fit: cover;
+}
+
+.card ul {
+            margin-top: 10px;
+            padding: 0;
+}
+
+.card ul li {
+            font-size: 14px;
+            margin-bottom: 5px;
+}
+.card{
+            background-color: var(--bg-color);
+            color: aliceblue;
+            transition: all 0.5s ease-in-out;
+}
+.card:hover{
+            background-color:white;
+            color: black;
+            transform: translateY(-10px);
+}
+.card-title{
+            color: var(--primary-color);
+            font-weight: 900;
+            font-size: 25px;
+}
+.free{
+            color: var(--primary-color);
+}
