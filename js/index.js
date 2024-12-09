@@ -1,4 +1,4 @@
-import { fetchGames } from './displayCards';
+import { fetchGames } from './displayCards.js';
 
 // Navbar scroll effect
 const navbar = document.querySelector('.custom-navbar');
